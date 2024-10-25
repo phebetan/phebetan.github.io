@@ -1,6 +1,6 @@
-/* Basic styling for the body */
+
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -40,9 +40,9 @@ a:hover {
 
 /* Change box model properties */
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
+    width: 150px; /* This makes the image 150 pixels wide */
+    height: auto; /* The height will adjust automatically to maintain aspect ratio */
+    border-radius: 50%; /* Keeps the image circular */
     margin-top: 10px;
     padding: 5px;
     border: 2px solid #0073e6;
