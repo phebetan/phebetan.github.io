@@ -1,0 +1,49 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Styling for sections */
+.section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style applied to multiple elements using a class */
+.section h2 {
+    color: #333;
+}
+
+/* Styling the title with an ID selector */
+#welcome-title {
+    color: #0073e6;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Styling for links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Hover effect on links */
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Change box model properties */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #0073e6;
+}
