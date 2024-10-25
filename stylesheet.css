@@ -1,10 +1,18 @@
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Georgia, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+/* Styling the title with an ID selector */
+#welcome-title {
+    font-family: 'Arial', serif; /* Different font for the title */
+    color: #0073e6;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
 
 /* Styling for sections */
 .section {
