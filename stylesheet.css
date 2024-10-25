@@ -1,18 +1,18 @@
-
+/* Basic styling for the body text */
 body {
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, serif; /* Body font */
     margin: 0;
     padding: 0;
     text-align: center;
 }
-/* Styling the title with an ID selector */
+
+/* Styling the title with a different font */
 #welcome-title {
-    font-family: 'Arial', serif; /* Different font for the title */
+    font-family: Arial, sans-serif; /* Different font for the title */
     color: #0073e6;
     font-size: 2em;
     margin-top: 20px;
 }
-
 
 /* Styling for sections */
 .section {
@@ -22,16 +22,9 @@ body {
     border-radius: 5px;
 }
 
-/* Style applied to multiple elements using a class */
+/* Styling for section headers */
 .section h2 {
     color: #333;
-}
-
-/* Styling the title with an ID selector */
-#welcome-title {
-    color: #0073e6;
-    font-size: 2em;
-    margin-top: 20px;
 }
 
 /* Styling for links */
@@ -46,11 +39,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Change box model properties */
+/* Profile picture styling */
 img {
-    width: 150px; /* This makes the image 150 pixels wide */
-    height: auto; /* The height will adjust automatically to maintain aspect ratio */
-    border-radius: 50%; /* Keeps the image circular */
+    width: 150px; /* Adjusts image width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Makes image circular */
     margin-top: 10px;
     padding: 5px;
     border: 2px solid #0073e6;
